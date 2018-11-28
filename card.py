@@ -20,5 +20,5 @@ class Card:
                 return other_card
 
     def __str__(self):
-        new_card = self.ranks[self.rank] + "of" + self.suits[self.suit]
+        new_card = self.ranks[self.rank] + " of " + self.suits[self.suit]
         return new_card
