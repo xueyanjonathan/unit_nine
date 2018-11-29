@@ -6,7 +6,7 @@ class Card:
         self.suit = suit
         self.ranks = ["Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine",
                       "Ten", "Jack", "Queen", "King"]
-        self.suits = ["Spades", "Hearts", "Diamonds", "Spades"]
+        self.suits = ["Diamonds", "Clubs", "Hearts", "Spades"]
 
     def compared_to(self, other_card):
         if self.rank > other_card.rank:
@@ -14,7 +14,7 @@ class Card:
         elif other_card.rank > self.rank:
             return other_card
         else:
-            if self.suit > other_card():
+            if self.suit > other_card.suit:
                 return self
             else:
                 return other_card
