@@ -2,6 +2,8 @@
 # 11/30/2018
 # Classes and Methods
 # Creating classes to build the compare(war) card game
+
+
 class Card:
 
     def __init__(self, rank, suit):
