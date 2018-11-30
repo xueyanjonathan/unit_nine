@@ -1,3 +1,7 @@
+# Jonathan Lin
+# 11/30/2018
+# Classes and Methods
+# Creating classes to build the compare(war) card game
 import deck
 
 
